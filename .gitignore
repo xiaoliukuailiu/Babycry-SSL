@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# 训练产物（大文件，不提交）
+checkpoint-*/
+*.pt
+*.pth
+*.bin
+*.safetensors
+optimizer.pt
+rng_state.pth
+scheduler.pt
+trainer_state.json
+
+# IDE
+.vscode/
+.idea/
+
+# 音频数据
+*.wav
+*.mp3
+*.flac
+*.ogg
