@@ -12,14 +12,7 @@ env/
 
 # 训练产物（大文件，不提交）
 checkpoint-*/
-*.pt
-*.pth
-*.bin
-*.safetensors
 optimizer.pt
-rng_state.pth
-scheduler.pt
-trainer_state.json
 
 # IDE
 .vscode/
